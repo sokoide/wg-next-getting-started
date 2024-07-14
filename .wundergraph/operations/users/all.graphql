@@ -1,0 +1,12 @@
+query {
+    user: users_post_findManyUser {
+        id
+        email
+        name
+        posts {
+            id
+            title
+            content
+        }
+    }
+}
